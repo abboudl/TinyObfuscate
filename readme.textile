@@ -1,2 +1,3 @@
-This tool is described in an article I wrote at CodeProject:
+This tool is described in an article by Michael Haephrati at CodeProject:
 https://www.codeproject.com/Articles/1210398/Small-String-Obfuscator
+See also: https://sourceforge.net/projects/tinyobfuscate/
