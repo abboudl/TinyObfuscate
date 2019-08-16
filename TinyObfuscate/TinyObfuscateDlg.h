@@ -28,6 +28,7 @@ protected:
 	afx_msg void OnSysCommand(UINT nID, LPARAM lParam);
 	afx_msg void OnPaint();
 	afx_msg HCURSOR OnQueryDragIcon();
+	
 	DECLARE_MESSAGE_MAP()
 public:
 	CEdit Original;
@@ -36,4 +37,17 @@ public:
 	afx_msg void OnEnChangeEdit1();
 	afx_msg void OnEnChangeEdit3();
 	CEdit Varname;
+	CButton m_Unicode;
+    
+    CButton m_Function;
+    CButton m_Variable;
+    CButton m_Number;
+    CButton m_String;
+    
+    
+	CEdit m_ProjectFileName;
+	afx_msg void OnBnClicked_ScanProjectFile();
+	afx_msg void OnBnClickedButton1();
+    afx_msg void OnBnClicked_AllFiles();
+	CListBox m_ProjectFiles;
 };

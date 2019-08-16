@@ -98,3 +98,4 @@ BOOL CTinyObfuscateApp::InitInstance()
 	return FALSE;
 }
 
+
